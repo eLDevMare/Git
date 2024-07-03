@@ -29,3 +29,6 @@ Route::get('test', function () {
 });
 
 
+Route::get('al gahaza', function () {
+    return ('kentod');
+});
