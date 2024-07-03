@@ -25,7 +25,7 @@ Route::get('/halo', function () {
 
 
 Route::get('test', function () {
-    return ('Test');
+    return ('ubah 2');
 });
 
 
