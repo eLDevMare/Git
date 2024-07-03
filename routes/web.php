@@ -20,6 +20,10 @@ Route::get('/', function () {
 
 
 Route::get('/halo', function () {
-    return inertia::render('Halo');
+    return ('Halo');
+});
+
+Route::get('/boom', function () {
+    return ('Haloo');
 });
 
