@@ -20,6 +20,8 @@ Route::get('/', function () {
 
 
 Route::get('/halo', function () {
-    return inertia::render('Halo');
+    return ('Halo aldi');
 });
+
+
 
