@@ -1,7 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Models\BannerAdmin;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BannerController;
+use App\Http\Controllers\DashboardController;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +18,8 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return inertia::render('Test');
-});
+
+// Dashboard Route
+Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
 
 
