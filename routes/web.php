@@ -19,16 +19,3 @@ Route::get('/', function () {
 });
 
 
-Route::get('/halo', function () {
-    return ('Halo aldi');
-});
-
-
-Route::get('test', function () {
-    return ('ubah 1');
-});
-
-
-Route::get('al gahaza', function () {
-    return ('kentod');
-});
