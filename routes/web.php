@@ -21,5 +21,3 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 // Dashboard Route
 Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
-
-
